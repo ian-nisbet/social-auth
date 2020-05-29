@@ -1,0 +1,23 @@
+{
+  "name": "ian-nisbet/social-auth",
+  "autoload": {
+    "psr-4": {
+      "IanNisbet\\SocialAuth\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "IanNisbet\\SocialAuth\\SocialAuthProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": false,
+    "platform": {
+      "php": "7.2"
+    }
+  }
+}
